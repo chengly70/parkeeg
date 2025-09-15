@@ -19,6 +19,7 @@ getContn.m -- our downsampling code, used in previous function
 get_sideSeverity.m -- code to get physical impairment side of each Parkinson's patient, data from participants.tsv file at openneuro.org website above. Saves struct whSide in dSeveritySide.mat
 
 ------- Scripts/Functions for Main Results in the Paper ----
+
 ACF results (Fig 2): from script getAuto_threshTime_bySide.m, calculates individual and population ACF, as well as time ACF cross below prescribed threshold (0.1), saved in struct variable CharTim
 
 relies on DFA_fun.m file by Martin Magris, via https://www.mathworks.com/matlabcentral/fileexchange/67889-detrended-fluctuation-analysis-dfa
