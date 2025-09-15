@@ -7,6 +7,7 @@ All computer code is in MATLAB
 Many other figures generated for this project that were too cumbersome to put in the paper are here: https://drive.google.com/drive/folders/1QdOytuiETdtfEhSMKIuVl8vTBzvteLXZ?usp=sharing
 
 --------- Functions to process EEG data ------------
+
 getData.m -- code to load and process raw EEG data, relies on eeg_read_pdf.m file by Gleb Tcheslavski, via https://www.mathworks.com/matlabcentral/fileexchange/13070-eeg-bdf-reader 
 This script creates dataFiltrd.mat that is used in sub-sequent methods. 
 
@@ -23,5 +24,6 @@ ACF results (Fig 2): from script getAuto_threshTime_bySide.m, calculates individ
 relies on DFA_fun.m file by Martin Magris, via https://www.mathworks.com/matlabcentral/fileexchange/67889-detrended-fluctuation-analysis-dfa
 
 ------- MAT files --------
+
 dataFiltrd.mat -- extracted EEG data, some subjects have SMALL snippets at end removed because they appear to be artifacts
 dSeveritySide.mat -- denotes the side of physical impairment in Parkinson's patients, created from get_sideSeverity.m script
