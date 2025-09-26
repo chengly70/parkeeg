@@ -22,7 +22,7 @@ get_sideSeverity.m -- code to get physical impairment side of each Parkinson's p
 
 ACF results (Fig 2): from script getAuto_threshTime_bySide.m, calculates individual and population ACF, as well as time ACF cross below prescribed threshold (0.1), saved in struct variable CharTim
 
-relies on DFA_fun.m file by Martin Magris, via https://www.mathworks.com/matlabcentral/fileexchange/67889-detrended-fluctuation-analysis-dfa
+getDFA_all.m -- script to calc all DFA coeff, and visualize linear fits. Relies on 1dfaSplits[C3/C4/Mn].xlsx for splitting points in time windows, and relies on DFA_fun.m file by Martin Magris, via https://www.mathworks.com/matlabcentral/fileexchange/67889-detrended-fluctuation-analysis-dfa
 
 ------- MAT files --------
 
